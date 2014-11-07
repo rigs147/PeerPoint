@@ -22,6 +22,25 @@ angular.module('app', ['ui.router', 'app.filters', 'app.services', 'app.directiv
                 templateUrl: '/views/about',
                 controller: 'AboutCtrl'
             })
+
+           .state('news', {
+               url: '/news',
+               templateUrl: '/views/news',
+               controller: 'NewsCtrl'
+           })
+
+            .state('apply', {
+                url: '/apply',
+                templateUrl: '/views/apply',
+                controller: 'ApplyCtrl'
+            })
+
+            .state('consultant-area', {
+                url: '/consultant-area',
+                templateUrl: '/views/consultant-area',
+                controller: 'Consultant-areaCtrl'
+            })
+
             .state('contacts', {
                 url: '/contacts',
                 templateUrl: '/views/contacts',

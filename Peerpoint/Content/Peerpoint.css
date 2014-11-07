@@ -1,0 +1,21 @@
+body {
+  background-color: white;
+  color: black; }
+
+.navbar-inverse {
+  background-color: white;
+  border-color: white; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #999999;
+  border-right: solid; }
+
+.logo-holder {
+  /*padding-left: 500px;
+  padding-top: 50px;*/ }
+
+.pp-wrapper {
+  padding-left: 500px;
+  padding-top: 50px;
+  width: 20%; }
+

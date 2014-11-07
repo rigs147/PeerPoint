@@ -1,0 +1,34 @@
+﻿$col: green;
+$primary-brand-color: white;
+$main-font-color: black;
+
+@mixin blank-background() {
+    background-color: white;
+    border-color: white;
+}
+
+body {
+    background-color: $primary-brand-color;
+    color: $main-font-color;
+}
+
+.navbar-inverse {
+    @include blank-background;
+    
+}
+
+.navbar-inverse .navbar-nav > li > a {
+color: #999999;
+border-right: solid;
+}
+
+.logo-holder {
+/*padding-left: 500px;
+padding-top: 50px;*/
+}
+
+.pp-wrapper {
+padding-left: 500px;
+padding-top: 50px;
+width: 20%;
+}

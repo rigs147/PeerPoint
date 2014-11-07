@@ -16,6 +16,8 @@ namespace App.Peerpoint
         {
             bundles.Add(new StyleBundle("~/content/css/app").Include("~/content/app.css"));
 
+            bundles.Add(new StyleBundle("~/content/css/peerpoint").Include("~/content/peerpoint.css"));
+
             bundles.Add(new ScriptBundle("~/js/jquery").Include("~/scripts/vendor/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/js/app").Include(
